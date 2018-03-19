@@ -4,6 +4,8 @@
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title RateArt
     = csrf_meta_tags
+    %script{src: "https://cdn.plot.ly/plotly-1.2.0.min.js"}
+    = javascript_pack_tag 'application'
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
   %body
