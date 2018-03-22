@@ -1,0 +1,7 @@
+$modul-width: 5000px;
+$modul-height: 5000px;
+
+$moduls-column-number: 4;
+$moduls-rows-number: 4;
+$one-modul-width: $modul-width/$moduls-column-number;
+$one-modul-height: $modul-height/$moduls-rows-number;
